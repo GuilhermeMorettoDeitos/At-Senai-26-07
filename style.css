@@ -1,0 +1,19 @@
+#imagem {
+    width: 250px;
+    margin-bottom: 15px;
+
+}
+
+#operacao {
+    width: 20%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#resultado {
+    width: 20%;
+    height: 50px;
+    margin-top: 20px;
+    color: blue;
+}

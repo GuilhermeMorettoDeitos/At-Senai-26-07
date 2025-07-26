@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <h2>Operações Matemáticas Básicas</h2>
+    <p>Esta é uma calculadora simples que permite realizar operações matemáticas básicas como adição, subtração, multiplicação e divisão.</p>
+    <img src="images/logoCalculadora.png" alt="logoCalculadora" id="imagem">
+    <br>
+    <form id="FormCalculadora" onsubmit="event.preventDefault(); calcular();">
+        <label for="num1">Número 1:</label>
+        <br>
+        <input id="operacao" type="number" class="num1" placeholder="Número 1" required>
+        <br>
+        <label for="num2">Número 2:</label>
+        <br>
+        <input id="operacao" type="number" class="num2" placeholder="Número 2" required>
+        <br>
+        <select class="operacao" id="operacao">
+            <option value="Adicao">+</option>
+            <option value="Subtracao">-</option>
+            <option value="Multiplicacao">*</option>
+            <option value="Divisao">/</option>
+        </select>
+        <br>
+        <button id="operacao" type="submit" class="calcular">Calcular</button>
+        <br>
+        <input type="text" id="resultado" placeholder="resultado" readonly>
+    </form>
+
+    <ol>
+        <li>Primeiro passo - Adicionar os dois números para a operação</li>
+        <li>Segundo passo - Selecionar o tipo de operação</li>
+        <li>Terceiro passo - Clicar em calcular</li>
+    </ol>
+
+    <script src="script.js"></script>
+</body>
+</html>
