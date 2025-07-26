@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>História e Cultura de Mônaco</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1 id="text" >História e Cultura de Mônaco</h1>
+
+    <div class="conteudo">
+        <h2>História</h2>
+        <p>
+            Mônaco, um dos menores países do mundo, tem uma história rica e fascinante. Situado na Riviera Francesa,
+            tornou-se independente em 1297, quando François Grimaldi capturou a fortaleza de Mônaco disfarçado de monge.
+            Desde então, a família Grimaldi governa o principado — com breves interrupções ao longo dos séculos.
+        </p>
+
+        <p>
+            Durante o século XIX, Mônaco enfrentava dificuldades econômicas até que, em 1863, foi inaugurado o famoso
+            Cassino de Monte Carlo, atraindo visitantes da elite europeia. O país prosperou como destino de luxo, e
+            manteve sua soberania mesmo durante os períodos turbulentos das guerras mundiais.
+        </p>
+
+        <p>
+            O príncipe Rainier III, que governou de 1949 a 2005, foi responsável por modernizar o país. Seu casamento
+            com a atriz americana Grace Kelly, em 1956, colocou Mônaco nos holofotes internacionais.
+        </p>
+
+        <h2>Cultura</h2>
+        <p>
+            A cultura monegasca é uma mescla única de influências francesa, italiana e mediterrânea. Apesar de seu
+            tamanho compacto, o país valoriza a preservação de suas tradições e identidade nacional.
+        </p>
+
+        <p>
+            Mônaco é conhecido por seus eventos sofisticados, como o <strong>Grande Prêmio de Fórmula 1</strong>,
+            o <strong>Festival Internacional de Circo</strong> e os concertos da <strong>Orquestra Filarmônica de Monte Carlo</strong>.
+        </p>
+
+        <p>
+            A língua oficial é o francês, mas também se ouvem o italiano, o inglês e o dialeto local, o monegasc.
+            A religião predominante é o catolicismo, refletido na bela <strong>Catedral de São Nicolau</strong>,
+            onde estão enterrados Rainier III e Grace Kelly.
+        </p>
+
+        <p>
+            A arte, a moda e a arquitetura de Mônaco revelam um forte apreço pela elegância, equilíbrio e inovação.
+            Museus como o <strong>Museu Oceanográfico de Mônaco</strong> e instituições culturais mantêm vivo o
+            espírito criativo do país.
+        </p>
+    </div>
+
+    <a href="{% url 'home' %}" class="botao">Voltar para Home</a>
+</body>
+</html>

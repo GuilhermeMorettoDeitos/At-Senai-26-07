@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Galeria</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+</head>
+<body>
+    <h1 id="text">Galeria de Fotos!</h1>
+    <p>This is a simple Django application.</p>
+
+    <div class="galeria">
+        <img src="{% static 'imagens/cidade01.png' %}" alt="Vista de Mônaco 1" class="foto-monaco" />
+        <img src="{% static 'imagens/cidade02.png' %}" alt="Vista de Mônaco 2" class="foto-monaco" />
+        <img src="{% static 'imagens/cidade03.png' %}" alt="Vista de Mônaco 3" class="foto-monaco" />
+        <img src="{% static 'imagens/cidade04.png' %}" alt="Vista de Mônaco 4" class="foto-monaco" />
+        <img src="{% static 'imagens/cidade05.png' %}" alt="Vista de Mônaco 5" class="foto-monaco" />
+        <img src="{% static 'imagens/cidade06.png' %}" alt="Vista de Mônaco 6" class="foto-monaco" />
+        <img src="{% static 'imagens/cidade07.png' %}" alt="Vista de Mônaco 7" class="foto-monaco" />
+    </div>
+
+    <a href="{% url 'home' %}" class="botao">Página inicial</a>
+</body>
+</html>

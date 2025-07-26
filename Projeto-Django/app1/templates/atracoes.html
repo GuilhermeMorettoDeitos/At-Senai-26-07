@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Atrações Turísticas</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1 id="text" >Atrações Turísticas</h1>
+    <p>Conheça os principais destinos turísticos da nossa região e descubra paisagens incríveis, cultura rica e experiências inesquecíveis.</p>
+
+    <div class="atracoes-lista">
+        <h2>1. Centro Histórico</h2>
+        <p>Com construções que datam do século XVIII, o centro histórico oferece um mergulho na história local com igrejas antigas, casarões coloniais e museus interativos.</p>
+
+        <h2>2. Parque Natural da Serra</h2>
+        <p>Uma vasta área de preservação com trilhas, mirantes e cachoeiras. Ideal para quem gosta de ecoturismo e atividades ao ar livre.</p>
+
+        <h2>3. Lago Azul</h2>
+        <p>Famoso por suas águas cristalinas, o Lago Azul é perfeito para passeios de barco, caiaque e piqueniques à beira da água.</p>
+
+        <h2>4. Feira de Artesanato</h2>
+        <p>Espaço vibrante com artesãos locais, comidas típicas, música ao vivo e produtos feitos à mão — uma ótima opção para levar lembranças autênticas.</p>
+
+        <h2>5. Museu da Cultura Regional</h2>
+        <p>Com exposições interativas, o museu apresenta a história e as tradições da região, incluindo vestimentas típicas, instrumentos e objetos do cotidiano antigo.</p>
+    </div>
+
+    <a href="{% url 'home' %}" class="botao">Voltar para Home</a>
+</body>
+</html>
+
